@@ -1,0 +1,15 @@
+Iyunoluwa Lapite.
+LBL EA1. Project: A game
+A small character moves around a drawn maze and
+"eats" the objects in its path
+
+O-notation = O(1); It runs in linear time.
+
+Wiring: The lcd screen and joystick are wired as usual. An image of the wiring is included.
+
+The function for eating the white characters is glitchy and the user may need to move the cursor over a point multiple times to earn a point. 
+Also the function that determines when the character is at the endzone is glitchy and the user may need to move it there multiple times.
+The time displayed at the end of the game is in milliseconds.
+The score displayed at the end of the end is the number of characters eaten multiplied by 2.
+
+The only other file that the code calls is lcd_image.h
